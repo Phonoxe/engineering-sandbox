@@ -9,12 +9,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # chemin vers le fichier json
 DATA_FILE = BASE_DIR / "data" / "data.json"
 
-with open(DATA_FILE, "r", encoding="utf-8") as f:
-    data = json.load(f)
-
 
 def PrintItems():
     # Getting the data part
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+
     listExpired = []
     listNotExpired = []
 
