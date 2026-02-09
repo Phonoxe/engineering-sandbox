@@ -1,1 +1,14 @@
-[{"Name": "tuna", "Date": "01/07/2022"}, {"Name": "eggs", "Date": "12/01/2020"}, {"Name": "salad", "Date": "12/12/2020"}]
+[
+    {
+        "name" : "apple",
+        "date" : "08/01/2026"
+    },
+    {
+        "name" : "chocolate",
+        "date" : "12/06/2026"
+    },
+    {
+        "name" : "steak",
+        "date" : "22/03/2026"
+    }
+]

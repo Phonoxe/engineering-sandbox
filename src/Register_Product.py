@@ -25,7 +25,7 @@ while True:
     except ValueError:
         print("Retry. Invalid format. Example : 12/07/2009")
 
-new_product = {"Name": product_name, "Date": product_expiry_date.strftime("%d/%m/%Y")}
+new_product = {"name": product_name, "date": product_expiry_date.strftime("%d/%m/%Y")}
 
 products.append(new_product)
 
