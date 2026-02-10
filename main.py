@@ -1,5 +1,5 @@
-import src.registeredItems as registeredItems
-import src.modifyItems as modifyItems
+import src.registered_items as registered_items
+import src.modify_items as modify_items
 
 ended = False
 
@@ -11,11 +11,11 @@ while not ended:
     print("4. Exit")
     choice = input("Enter your choice (1, 2, 3 or 4): ")
     if choice == "1":
-        modifyItems.RegisterNewProduct()
+        modify_items.RegisterNewProduct()
     elif choice == "2":
-        registeredItems.PrintItems()
+        registered_items.PrintItems()
     elif choice == "3":
-        modifyItems.DeleteExistingProduct()
+        modify_items.DeleteExistingProduct()
     elif choice == "4":
         ended = True
     else:
